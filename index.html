@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Bookmark App</title>
+</head>
+
+<body>
+    <!-- open modal -->
+    <h1 id="show-modal">Add Bookmark</h1>
+    <!-- bookmarks -->
+    <div class="container" id="container">
+        <!-- <div class="item">
+            <i class="fas fa-times" id="delete-bookmark" title="delete bookmark"></i>
+            <div class="name">
+                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.google.com" alt="favicon">
+                <a href="https://google.com" target="_blank">Google</a>
+            </div>
+        </div>
+        <div class="item">
+            <i class="fas fa-times" id="delete-bookmark" title="delete bookmark"></i>
+            <div class="name">
+                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.facebook.com" alt="favicon">
+                <a href="https://facebook.com" target="_blank">facebook</a>
+            </div>
+        </div>
+        <div class="item">
+            <i class="fas fa-times" id="delete-bookmark" title="delete bookmark"></i>
+            <div class="name">
+                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.youtube.com" alt="favicon">
+                <a href="https://youtube.com" target="_blank">youtube</a>
+            </div>
+        </div> -->
+    </div>
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <i class="fas fa-times close-icon" id="close-modal"></i>
+            <div class="modal-header">
+                <h3>Add bookmark</h3>
+
+            </div>
+            <div class="modal-content">
+                <form id="bookmark-form">
+                    <div class="form-group">
+                        <label for="website-name" class="form-label">website name</label>
+                        <input type="text" class="form-input" id="website-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="website-url" class="form-label">website url</label>
+                        <input type="text" class="form-input" id="website-url">
+                    </div>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
